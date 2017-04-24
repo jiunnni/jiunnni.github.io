@@ -6,7 +6,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
     <style>
         div {
@@ -77,6 +76,27 @@
 </head>
 
 <body>
+
+    <div>
+        <div class="title">
+            <div>
+                <marquee>
+                    <h1 class="blue-text">"Welcome ,my name is Jiun Ni Chen"</h1>
+                </marquee>
+                <div class="picture">
+                    <a href="#">
+                        <img class="smaller-image thick-green-border" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15873210_1211574695592804_7835269008360634619_n.jpg?oh=ef758b98567d436321fabf2d8d078185&amp;oe=59699C8F"
+                            alt="A cute orange cat lying on its back. "></a>
+                    <input type="button" value="my facebook" onclick="location.href='https://www.facebook.com/chen.j.ni.92'" style="width:150px;height:60px;font-size:30px;"
+                        font-family: 'Gloria Hallelujah', cursive;>
+                    <input type="button" value="my github" onclick="location.href='https://github.com/jiunnni'" style="width:150px;height:60px;font-size:30px;"
+                        font-family: 'Gloria Hallelujah', cursive;>
+                </div>
+
+            </div>
+
+        </div>
+
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
@@ -85,7 +105,10 @@
     $("#target2").appendTo("#right-well");
     $("#target5").clone().appendTo("#left-well");
     $("#target1").parent().css("background-color", "red");
-    $("#target1").addClass("animated shake");
+    $("#right-well").children().css("color", "orange");
+    $("#left-well").children().css("color", "green");
+    $(".target:nth-child(2)").addClass("animated bounce");
+$(".target:even").addClass("animated shake");
   });
 </script>
 
@@ -115,26 +138,6 @@
 
 
 
-</script>
-    <div>
-        <div class="title">
-            <div>
-                <marquee>
-                    <h1 class="blue-text">"Welcome ,my name is Jiun Ni Chen"</h1>
-                </marquee>
-                <div class="picture">
-                    <a href="#">
-                        <img class="smaller-image thick-green-border" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15873210_1211574695592804_7835269008360634619_n.jpg?oh=ef758b98567d436321fabf2d8d078185&amp;oe=59699C8F"
-                            alt="A cute orange cat lying on its back. "></a>
-                    <input type="button" value="my facebook" onclick="location.href='https://www.facebook.com/chen.j.ni.92'" style="width:150px;height:60px;font-size:30px;"
-                        font-family: 'Gloria Hallelujah', cursive;>
-                    <input type="button" value="my github" onclick="location.href='https://github.com/jiunnni'" style="width:150px;height:60px;font-size:30px;"
-                        font-family: 'Gloria Hallelujah', cursive;>
-                </div>
-
-            </div>
-
-        </div>
         <div class="content">
             <p>the record of formal schooling:</p>
             <ul>
