@@ -1,0 +1,107 @@
+<html>
+
+<head>
+
+<style>
+
+<meta charset="utf-8" />
+</style>
+</head>
+
+</div>
+<body>
+<h2>監測原理介紹</h2>
+<p> 大氣的狀態是變幻莫測的，空氣品質也隨著污染物移動而有所變化。藉由不同測項分析儀器即時收集相關數據定時紀錄，再經由軟硬體設備進行品質管制，並進一步計算數值並提供正確、發布可靠的資訊，藉此有效掌握空氣污染物的變化及流向、以利後續的趨勢推估與預測。
+以下針對 一氧化碳 (CO)、 懸浮微粒 (PM10) 的檢測方法做介紹。
+</p>
+<h3>一氧化碳 (CO) -紅外線法</h3>
+<p>一氧化碳 (CO) 分析儀是利用非散射性紅外線吸收原理所設計的儀器，其原理為利用 CO 會吸收 4700nm 左右波長的紅外線，藉由紅外線發射前與接受後的強度差異改變，去定量出空氣中 CO 的濃度，因為紅外線吸收程度與CO的濃度有比例關係，吸收度越高，相對所測量空氣中的 CO 濃度也越高。
+當空氣樣品開始分析時，系統會將空氣引進樣品反應室內，然後照射紅外線，再量測紅外線的強度，空氣樣品分析結束後，樣品氣體回流，經過觸媒單元去除 CO 氣體，再進入反應室，此時反應室裝的氣體為零點氣體(不會吸收紅外線的氣體)，也就是說，所量測的紅外線吸收度是零。由此比對先、後進入反應室的紅外線吸收度。樣品氣體進入反應室之前，會先通過一個除濕器及過濾器，因為大氣中會含有水氣及懸浮微粒，這兩種物質也會吸收紅外線，會干擾 CO 的分析，必須去除才不至於造成干擾。
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_01.jpg">
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_02.jpg">
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_03.jpg">
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_04.jpg">
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_05.jpg">
+<img class="mySlides" src="https://airtw.epa.gov.tw/images/Information/t1_06.jpg">
+<script >
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+</p>
+
+
+
+<h3>懸浮微粒(PM10)-貝他射線</h3>
+	<p>分析儀能有效分析空氣中粒狀物濃度，能長時間自動連續性的進行空氣中粒狀物監測。儀器設計原理是根據貝他射線通過濾紙衰減量不同，再由系統計算出粒狀物濃度。大氣中的氣體樣品透過空氣泵引至系統內，在進入分析系統內之前，會先經過採樣系統，此系統可分為採樣口、篩分器及加熱裝置，目的在於決定進入分析系統的粒徑大小，例如 PM10 或 PM2.5 ，以及避免水分的干擾。
+當氣體樣品進入系統內會透過特殊材質（如：玻璃纖維）的濾紙，將空氣中的粒狀物收集。系統內有裝置放射性元件(例如用 14C 作為放射物質)用來發射輻射脈衝，當輻射穿過濾紙後會由計數器裝置接收，用來計數脈衝強度。
+濾紙在收集粒狀物之前會先測量空白濾紙的輻射強度，這樣便可得知濾紙收集粒狀物前後的差異，而強度的差異與粒狀物質量成比例，因此系統便由此計算出空氣中粒狀物 (PM10 或 PM2.5) 濃度。</p>
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_01.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_02.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_03.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_04.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_05.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_06.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_07.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_08.jpg">
+<img class="mySlides2" src="https://airtw.epa.gov.tw/images/Information/t5_09.jpg">
+<script >
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+</p>
+</p>
+<h3>懸浮微粒 (PM10) -質量慣性法</h3>
+   <p>以質量慣性法所設計的分析儀器，可以用來測量空氣中粒徑在 10 微米（μm）以下之粒狀污染物（PM10）濃度。其原理是利用微量天平(震盪原理)去量測濾紙重量，而濾紙則是直接裝置在天平，當空氣樣品通過濾紙時(濾紙後面有排氣的管路)，濾紙會因收集了空氣中的 PM10 而產生重量改變，藉由此重量的變化，系統便能運算出空氣中 PM10 的濃度。空氣透過泵浦引進系統內進行分析之前，需要透過採樣器的輔助，將空氣中非 PM10 的物質以及會干擾分析的水氣給予去除。</p>
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_01.jpg">
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_02.jpg">
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_03.jpg">
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_04.jpg">
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_05.jpg">
+<img class="mySlides3" src="https://airtw.epa.gov.tw/images/Information/t6_06.jpg">
+<script >
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+</p>
+</p>
+
+
+  </body>
+</table>
+</html>
